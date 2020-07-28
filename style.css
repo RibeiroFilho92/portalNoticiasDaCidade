@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#cabecalho {
+    width: auto;
+    height: 250px;
+    background: #294C71 url('imagens/fundo.png') repeat-x left bottom;
+}
+
+#caixa-cabecalho {
+    width: 800px;
+    height: 195px;
+    margin: 0 auto;
+    background: url('imagens/detalhe-topo.png') no-repeat right top;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul {
+    margin-top: 20px;
+}
+
+#menu li {
+    float: left;
+    background-color: #DE003E;
+    padding: 20px;
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu a:hover {
+    color: #69001d;
+}
+
+#logo {
+    color: white;
+    font-weight: bold;
+    width: 165px;
+    height: 66px;
+    text-indent: 3000px;
+    padding-top: 50px;
+    background: url('imagens/logo.png') no-repeat center;
+}
+
+#logo1 {
+    font-size: 30px;
+    display: block;
+}
+
+#logo2 {
+    font-size: 50px;
+    display: block;
+}
+
+body.home #menu li#home,
+body.brasil #menu li#brasil,
+body.internacional #menu li#internacional,
+body.fotos #menu li#fotos,
+body.economia #menu li#economia,
+body.saude #menu li#saude,
+body.ciencia #menu li#ciencia {
+    color: #fff;
+    background: #61152b;
+    cursor: text;  
+}
+
+#conteudo {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#conteudo img {
+    width: 98%;
+    height: 200px;
+    border: 2px solid #dfdfdf
+}
+
+#tres-colunas #primario {
+    width: 300px;
+    float: left;
+    margin: 0px 10px 20px 190px;
+    background: url('imagens/fundo-caixa.png');
+}
+
+#duas-colunas #primario {
+    width: 600px;
+    float: left;
+    margin: 0px 10px 20px 190px;
+    background: url('imagens/fundo-caixa.png');
+}
+
+#uma-coluna #primario {
+    width: 800px;
+    float: left;
+    margin: 0px 10px 20px 0px;
+    background: url('imagens/fundo-caixa.png');
+}
+
+#primario-baixo a {
+    text-decoration: none;
+}
+
+#primario-baixo li {
+    border-bottom: 1px solid #ccc;
+}
+
+#primario-baixo li:hover {
+    background-color: gainsboro; 
+    cursor: pointer;
+}
+
+#primario-baixo h3 {
+    font-size: 16px;
+    color: black;
+    margin:0px;
+    margin-top: 3px;
+    background: none;
+}
+
+#primario-baixo p {
+    font-size: 13px;
+    color: black;
+    display: block;
+    margin:0px;
+}
+
+#primario-baixo img {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin: 3px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    background-color:#294C71;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+h3 {
+    background: #DE003E;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 10px 10px 3px;
+}
+
+#primario a, #secundario a {
+    display: inline-block;
+    color: red;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 5px 10px 3px;
+}
+
+#tres-colunas #secundario {
+    width: 300px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+    background: url('imagens/fundo-caixa.png');
+}
+
+#secundario-baixo a {
+    text-decoration: none;
+}
+
+#secundario-baixo li {
+    border-bottom: 1px solid #ccc;
+}
+
+#secundario-baixo li:hover {
+    background-color: gainsboro; 
+    cursor: pointer;
+}
+
+#secundario-baixo h3 {
+    font-size: 16px;
+    color: black;
+    margin:0px;
+    margin-top: 3px;
+    background: none;
+}
+
+#secundario-baixo p {
+    font-size: 13px;
+    color: black;
+    display: block;
+    margin:0px;
+}
+
+#secundario-baixo img {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin: 3px;
+}
+
+#botao {
+    margin-left: 65px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 10px 20px -800px;
+    background: url('imagens/fundo-caixa.png');
+}
+
+#lateral form {
+    margin: 5px 0px 5px 3px;
+}
+
+#lateral h2 {
+    color: white;
+    font-weight: bold;
+    background-color:#294C71;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+#lateral li {
+    padding: 15px;
+}
+
+#lateral li:hover {
+    padding-left: 20px;
+    background: white url('imagens/marcador.png') no-repeat left center;
+}
+
+#lateral a:hover {
+    color: gray;
+}
+
+#lateral ul a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#rodape {
+    background: #294C71;
+    padding: 30px;
+}
+
+#rodape-centro {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
